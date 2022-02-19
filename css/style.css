@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    fonr - font-family:"Roboto",sans-serif;
+}
+header{
+    width: 980px;
+    height: 160px;
+    background:deepskyblue;
+}
+.raz{
+    width: 980px;
+    margin: 0 auto;
+}
+nav{
+    height: 35px;
+    background:lightgoldenrodyellow;
+}
+nav .menu ul{
+    list-style: none;   
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0px 15px;
+}
+nav .menu ul li a{
+    color:blue;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav .search{
+    float: right;
+    line-height: 35px;
+    margin-right: 35px;
+}
+#banner {
+    height: auto;
+    width: 1000px;
+}
+footer{
+    width: 980px;
+    background-color: deepskyblue;
+    line-height: 40px;
+    text-align: center;
+    color: honeydew;
+    font-size: 18px;
+    font-weight: bold;
+}
+nav .menu>ul>li:hover>ul{
+    display: block;
+    background-color: lightgoldenrodyellow;
+    color: white;
+}
+.menu ul ul a:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.menu ul ul a{
+    display: block;
+    line-height:30px;
+    color:orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding:0 10px;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    border-radius:3px;
+    width:200px;
+    background-color: white;
+    box-shadow:0 0 1px  gray;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('img/vongtron.gif') no-repeat 0 px center;
+    display: block;
+    color: blue;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10 px 10 px 20px;
+}
+.vmenu a:hover{
+    background: url('img/tamgiac.png') no-repeat 10 px center;
+    border-bottom: 1 px dotted white;
+    background-color: greenyellow;
+    color: honeydew;
+    font-weight: bold;
+}
+#main #left {
+    width: 800px;
+    float: left;
+    min-height: 400px;
+}
+#main #left ul {
+    margin: 0xp;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+}
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+}
+#main #left ul li h2{
+    font-size: 35px;
+}

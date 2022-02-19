@@ -1,0 +1,116 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top {
+    background: lightgoldenrodyellow;
+    height: 40px;
+}
+#banner {
+    height: auto;
+    width: 1000px;
+}
+#main #left{
+    width: 800px;
+    background: #ccc;
+    float: left;
+    min-height: 400px;
+}
+#main #right{
+    width: 200px;
+    background: lightgoldenrodyellow;
+    min-height: 400px;
+    float: left ;
+}
+#footer{
+    background: deepskyblue;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    clear: left;
+    line-height: 60px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+
+}
+#menu_top ul li a{
+    text-decoration:  none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: blue;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #ccc;
+}
+#menu_top ul li a.artive {
+    background: seashell;
+}
+#banner img{
+    width: 1000px;
+}
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px; 
+}
+#main #left ul li a{
+    color:darkslateblue;
+}
+#main #left ul li img{
+    float: left;
+    width: 400px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h2{
+    font-size: 18px;
+    margin-top: 0px;
+}
+#main {
+    margin-top: 20px;
+}
+#main #right .menu_right ul {
+    margin: -15px 0px 0px 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+    font-size: 18px;
+}
+#main #right >.menu_right h3{
+    background: skyblue url(../img/menu.png)  ; 
+    height: 40px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 40px;
+    color: blue;
+    text-indent: 30px;
+}
+#main #right .menu_right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    background: url() no-repeat;
+}
+.search{
+    float: right;
+    line-height: 35px;
+    margin-right: 35px;
+    
+}

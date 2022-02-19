@@ -1,0 +1,43 @@
+#menu_top {
+    background: lightgoldenrodyellow;
+    height: 40px;
+}
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#banner {
+    height: auto;
+    width: 1000px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+
+}
+#menu_top ul li a{
+    text-decoration:  none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: blue;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #ccc;
+}
+#menu_top ul li a.artive {
+    background: seashell;
+}
+#banner img{
+    width: 1000px;
+}
+.search{
+    float: right;
+    line-height: 35px;
+    margin-right: 35px;
+    
+}
+p{
+    font-size: 15px;
+}
